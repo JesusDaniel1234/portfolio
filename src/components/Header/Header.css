@@ -1,0 +1,32 @@
+.container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  top: 10px;
+  border-radius: 30px;
+  backdrop-filter: blur(1.5rem);
+}
+.nav-list {
+  display: flex;
+  margin: 0;
+  gap: 5px;
+  padding: 10px;
+}
+li {
+  cursor: pointer;
+  display: block;
+  color: antiquewhite;
+  font-size: 20px;
+  list-style-type: none;
+  transition: 0.4s;
+  border-radius: 30px;
+  padding: 2px 10px;
+  position: relative;
+}
+
+li:hover {
+  background-color: antiquewhite;
+  color: #1a1a1a;
+  scale: 1.2;
+  margin: 0 10px;
+}
